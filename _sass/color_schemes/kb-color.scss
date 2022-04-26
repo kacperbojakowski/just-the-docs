@@ -21,7 +21,7 @@ $font-size-2: 14px; //h4 - uppercased!, h6 not uppercased, text-small
 $font-size-3: 12px; //h5
 $font-size-4: 14px;
 $font-size-5: 16px; //h3
-$font-size-6: 18px; //h2
+$font-size-6: 20px; //h2
 $font-size-7: 24px;
 $font-size-8: 32px; //h1
 $font-size-9: 36px;
@@ -75,7 +75,7 @@ $sidebar-color: $grey-lt-000;
 $search-background-color: $white;
 $table-background-color: $white;
 $code-background-color: $grey-lt-000;
-$feedback-color: darken($sidebar-color, 3%);
+$feedback-color: darken($sidebar-color, 5%);
 
 $body-text-color: $grey-dk-100;
 $body-heading-color: $grey-dk-300;
