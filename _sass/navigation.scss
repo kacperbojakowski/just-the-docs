@@ -139,6 +139,7 @@
   font-weight: 600;
   text-align: end;
   text-transform: uppercase;
+  border-bottom: $border $border-color;
   @include fs-2;
 
   @include mq(md) {
