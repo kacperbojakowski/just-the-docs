@@ -120,11 +120,11 @@ summary::-webkit-details-marker {
 }
 
 summary::after {
-  content: "&nbsp; &#9666;";
+  content: " ◂";
 }
 
 details[open] summary:after {
-  content: "&nbsp; &#9662;";
+  content: " ▾";
 }
 
 summary > span {
