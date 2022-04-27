@@ -110,3 +110,19 @@ hr {
 p:not(* ~ p) {
   margin-top: 0;
 }
+
+details > summary {
+  list-style: none;
+}
+
+summary::-webkit-details-marker {
+  display: none
+}
+
+summary::after {
+  content: " ◄";
+}
+
+details[open] summary:after {
+  content: " ▼";
+}
