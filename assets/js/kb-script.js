@@ -1,3 +1,3 @@
-window.onload = function CopyrightDate() {
+function CopyrightDate() {
     document.getElementById("CurrentYear").innerHTML = new Date().getFullYear();
 }
