@@ -321,7 +321,7 @@
     }
   }
 
-  input:focus::placeholder {
+  .search-input:focus {
     color: transparent;
   }
 }
