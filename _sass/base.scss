@@ -111,7 +111,7 @@ p:not(* ~ p) {
   margin-top: 0;
 }
 
-details > summary {
+details>summary {
   list-style: none;
 }
 
@@ -120,7 +120,7 @@ summary::-webkit-details-marker {
 }
 
 summary::after {
-  content: " ◄";
+  content: ' ◄';
 }
 
 details[open] summary:after {
