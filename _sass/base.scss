@@ -111,7 +111,7 @@ p:not(* ~ p) {
   margin-top: 0;
 }
 
-details > summary {
+details summary {
   list-style: none;
 }
 
@@ -127,7 +127,7 @@ details[open] summary:after {
   content: "▼";
 }
 
-summary > span {
+summary span {
   font-size: 1rem;
   font-weight: bold;
 }
