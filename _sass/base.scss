@@ -113,8 +113,6 @@ p:not(* ~ p) {
 
 details > summary {
   list-style: none;
-  font-size: 1rem;
-  font-weight: bold;
 }
 
 summary::-webkit-details-marker {
@@ -122,9 +120,14 @@ summary::-webkit-details-marker {
 }
 
 summary::after {
-  content: ' ◄';
+  content: "◄";
 }
 
 details[open] summary:after {
-  content: " ▼";
+  content: "▼";
+}
+
+summary > span {
+  font-size: 1rem;
+  font-weight: bold;
 }
