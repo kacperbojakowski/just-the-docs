@@ -320,4 +320,8 @@
       padding-top: 0;
     }
   }
+
+  input:focus::placeholder {
+    color: transparent;
+  }
 }
