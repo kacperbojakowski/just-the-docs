@@ -107,9 +107,13 @@ hr {
   border: 0;
 }
 
+/* Set margin-top for the first paragraph that is not preceded by another element; improves layout when using images as section headers. */
+
 p:not(* ~ p) {
   margin-top: 0;
 }
+
+/* HTML CONTAMINATION */
 
 details > summary {
   list-style: none;
@@ -129,7 +133,6 @@ details[open] summary:after {
 
 summary > span {
   font-size: large;
-  font-weight: bold;
 }
 
 .introduction {
