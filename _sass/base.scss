@@ -112,6 +112,12 @@ p:not(* ~ p) {
   margin-top: 0;
 }
 
+/* Set margin-bottom for the first h6-type header in the body; improves the layout of the glossary. */
+
+h6:first-of-type {
+  margin-bottom: 1rem;
+}
+
 /* HTML CONTAMINATION */
 
 details > summary {
