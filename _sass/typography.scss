@@ -38,8 +38,10 @@ h5,
 
 h6,
 .text-zeta {
-  @include fs-2;
-  color: $grey-dk-200;
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight: bold;
+  word-spacing: 0.1em;
 }
 
 .text-small {

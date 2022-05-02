@@ -44,8 +44,7 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6 {
+h5 {
   margin-top: 0;
   margin-bottom: 1em;
   font-weight: 500;
@@ -139,11 +138,4 @@ summary > span {
 .introduction {
   pointer-events: none;
   text-decoration: none;
-}
-
-.glossary {
-  font-family: monospace;
-  font-size: 2rem;
-  font-weight: bold;
-  word-spacing: 0.1em;
 }
