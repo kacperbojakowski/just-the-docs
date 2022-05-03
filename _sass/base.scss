@@ -145,3 +145,9 @@ summary > span {
   pointer-events: none;
   text-decoration: none;
 }
+
+/* TEST */
+
+h4:not(h3, h2, h1, p, ol, ul ~ h4) {
+  margin-bottom: 1.2em;
+}
