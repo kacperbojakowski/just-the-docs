@@ -96,6 +96,7 @@ li {
 img {
   max-width: 100%;
   height: auto;
+  margin-top: 0.4rem;
 }
 
 hr {
@@ -109,7 +110,7 @@ hr {
 /* Set margin-top for the first paragraph that is not preceded by another element; improves layout when using images as section headers. */
 
 p:not(* ~ p) {
-  margin-top: 0;
+  margin-top: -0.4rem;
 }
 
 /* Set margin-bottom for the first h6-type header in the body; improves the layout of the glossary. */
