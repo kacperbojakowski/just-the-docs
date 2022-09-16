@@ -134,11 +134,11 @@ summary::-webkit-details-marker {
 }
 
 summary::after {
-  content: " ⯇";
+  content: " ▼";
 }
 
 details[open] summary:after {
-  content: " ▼";
+  content: " ▲";
 }
 
 summary > span {
